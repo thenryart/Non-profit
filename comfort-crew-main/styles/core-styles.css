@@ -1,0 +1,150 @@
+body{
+    font-family: "PT Sans", sans-serif !important;
+    border: 1px solid red;
+    background: #0A3161;
+    color: #fff;
+}
+
+div.mainContent{
+    width: 100%;
+}
+
+/* Button Styling */
+button{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.3s;
+    border: transparent;
+}
+
+div.pageMenu > button{
+    background: transparent;
+    color: #FFF;
+    width: 23%;
+    font-weight: 700;
+    font-size: 28px;
+    border-bottom: 2px solid white;
+    margin: 0 .5%;
+}
+
+div.pageMenu > button:hover {
+    border-bottom: 2px solid #F2A413;
+}
+
+button.donateButton {
+    width: 260px;
+    height: 65px;
+    font-size: 36px;
+    background-color: #F2A413;
+    border-radius: 12px;
+    opacity: 1;
+}
+
+button.donateButton:hover {
+    background-color: #c2820a;
+}
+
+div.headerImg, div.headerDonate{
+    width: 25%;
+}
+
+div.headerImg > img{
+    max-width: 250px;
+}
+
+div.pageMenu{
+    width: 50%;
+}
+
+/* Page Header */
+div.heading{
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+    position: relative;
+    height: 150px;
+    align-items: center;
+}
+
+div.headerImg, div.pageMenu, div.headerDonate{
+    display: table-cell;
+    transform: translateY(-50%);
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+}
+
+div.pageMenu, div.headerDonate{
+    margin: auto;
+}
+
+div.headerDonate{
+    left: auto;
+}
+
+/* Mission Section */
+div.missionSection{
+    position: absolute;
+    margin: 0 175px;
+}
+
+div.missionSection > h1{
+    font-size: 50px;
+    margin: -28px 0 28px 0;
+    border-bottom: 2px solid #F2A413;
+    width: 575px;
+}
+
+
+
+div.heroImage > img{
+    width: 100%;
+    height: 750px;
+    margin: auto;
+}
+
+div.heroImage::after {
+    /*background-image: linear-gradient(180deg, rgba(217, 217, 217, 0) 37.5%, #0A3161 92.71%);*/
+    display: block;
+    position: relative;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, #0A3161 100%);
+    margin-top: -150px;
+    height: 150px;
+    width: 100%;
+    content: '';
+}
+
+div.heroSection > button{
+    position: absolute;
+    top: 700px;
+    left: 350px;
+}
+
+div.heroText{
+    position: absolute;
+    top: 350px;
+    left: 250px;
+    font-size: 108px;
+    width: 500px;
+}
+
+
+
+
+
+
+@media (min-width:768px){
+    
+}
+
+@media (min-width:992px){
+
+}
+
+@media (min-width:1200px){
+
+}
